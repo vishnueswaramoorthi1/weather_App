@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color:lightgray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cover{
+  background-color: white;
+  width:35vw;
+  height: 90vh;  
+  border-radius: 10px;
+}
+.inputFiled{
+  background-color: white;
+  border: none;
+  outline: none;
+  }
+.search_container{
+  border: 1px solid #70e6f3;
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  padding: 2%;
+  border-width: 5px;
+  border-radius: 10px;
+  transition: border 0.3s;
+}
+.icon_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.city{
+  padding: 2%;
+}
+.celsius{
+  padding: 2%;
+}
+.country{
+  padding: 2%;
+}
+.search_icon{
+  padding: 2%;
+  height: 5%;
+  cursor: pointer;
+}
+.position{
+  display: flex;
+  justify-content: center;
+}
+.lat{
+  padding-right: 2%;
+}
+.long{
+  padding-right: 2%;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.humidity{
+  margin-left: 2%;
+
+}
+.humidity p{
+  margin-left: 10%;
+
+}
+.wind-speed{
+  margin-right: 2%;
+}
+.wind-speed p{
+  margin-left: 10%;
+
+}
